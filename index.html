@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <h1>Martinez, Carlos</h1>
+    <h2>Martinez, Carlos</h2>
+    <link rel="stylesheet" href="C:\Users\Carlos\Desktop\Fall 2018\IS 445\Homework\Homework 1\IS445Homework1\hw1.css" />
         <h4><i>Welcome to IS445 Homework 1</i></h4>
-            <body>
-                <p>About Me</p>
+        <body> 
+                <style>
+                        .div1 {
+                            width: 400px;
+                            height: 400px;
+                            border: 3px solid red;
+                            box-sizing: border-box;
+                        }
+                        
+                        .div2 {
+                            width: 400px;
+                            height: 450px;    
+                            padding: 50px;
+                            border: 3px solid red;
+                            box-sizing: border-box;
+                        }
+                        </style> 
+                        
+                <div class="div1"><div class="center"><p>About Me</p></div>
                 <p><u><b><i>Education</i></b></u>
                     <br>2018, Bachelor of IS, CSULB
                 </p>
@@ -14,19 +32,23 @@
                     <br>2. Python</p>
 
                 <p><u><b><i>Expectation for this course</i></b></u>
-                    <br>I'd like you to cover the Angular and best 
-                    <br>practices of Web design.More examples on 
-                    <br>CSS are welcome. Please change this part to
-                    <br>what you want to learn from this class</p>
-
-                <p>Contact Me</p>
-                <p>Name:</p>
-
-                <p>E-mail:</p>
-
-                <p>Message:</p>
-
-                <p>Send your message</p>
+                    <br>I would like to learn the basics of HTML, 
+                    <br>CSS, and Javascript so that I'm able to
+                    <br>take this knowledge and apply it to my 
+                    <br>own projects in the future.</p></div>
                     
+
+                <div class="div2"><p>Contact Me</p>
+                
+                <p>Name:</p><br>
+                <input type="text" name="Name" value=""><br>
+                <p>E-mail:</p>
+                <input type="text" name="E-mail" value=""><br>
+                <p>Message:</p>
+                <textarea name="message" rows="5" cols="40">
+                </textarea>
+                <br><br>
+                <p><input type="submit" value="send your message"></p></div>
+                </form>
          </body>
 </html>

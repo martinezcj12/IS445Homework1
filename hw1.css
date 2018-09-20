@@ -1,16 +1,48 @@
-<style>
+
+/*Header*/
+h2 {
+    text-align: center;
+}
+h4  {
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Photo*/
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/*Body*/
 .div1 {
+    display: block;
     width: 400px;
-    height: 400px;
+    height: 450px;
     border: 3px solid red;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    box-align:left;   
+    text-align: center;   
+}
+.body1 {
+    text-align: left;
+}
+.skills {
+    text-indent: 25px;
 }
 
 .div2 {
-    width: 300px;
+    display: block;
+    width: 400px;
     height: 450px;    
     padding: 50px;
     border: 3px solid red;
     box-sizing: border-box;
+    box-align:right;
+    text-align: center;
 }
-</style>
+.body2 {
+    text-align: left;
+}
